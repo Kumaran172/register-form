@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width",initial scale =1.0>
+    <title>Registration FORM</title>
+    <style>
+       .registration{
+        background-color:white;
+        margin-top: 175px;
+        padding-top: 7px;
+        padding-left: 0px;
+        padding-bottom: 7px;
+        width: 310px ;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+       }
+       .registration input{
+        width: 250px;
+        padding-top: 15px;
+        margin: 10px;
+        
+       }
+
+       .registration2 button{
+        background-color:rgb(36, 132, 243);
+        color: white;
+        font-size: 18px;
+        width: 250px;
+        border-radius: 7px;
+        padding-top:10px;
+        margin-top: 10px;
+       }
+
+       .registration p{
+        text-align: center;
+        margin-left: 12px;
+        font-weight: bold;
+        text-decoration: underline;
+        text-decoration-color: blue;
+        font-size: 25px;
+       }
+       .registration2{
+        background-color:white;
+        padding-top: 7px;
+        padding-left: 0px;
+        padding-bottom: 7px;
+        width: 310px ;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+       }
+       button:hover{
+        color: BLACK;
+        cursor:grab;
+       }
+   
+    </style>
+  </head>
+  <body bgcolor= blue>
+    <center>
+    <form action="reg_successfull.html">
+      <div class="registration">
+        <p>Registration</p>
+        <input type="text" name="name" placeholder="Enter your name" required> <br>
+        <input type="email" name="email" placeholder="Enter your email" required> <br>
+        <input type="text" name="password" placeholder="create password" required> <br>
+        <input type="text" name="password" placeholder="confirm password" required><br>
+      </div>
+        <div class="registration2">
+            <input type="checkbox" name="privacy" id="policy" required>
+            <span id="policy">i accept all terms & conditions 
+            </span><br>
+        <button type="submit">REGISTER Now</button><br>
+        <h4>Already have an account?<a href="">Login now</a></h4>
+      </div>
+      </form>
+    </center>
+  </body>
+</html>
